@@ -14,6 +14,10 @@
   .soon{margin-top:2.5rem;font-family:system-ui,sans-serif;text-transform:uppercase;letter-spacing:.2em;font-size:.85rem}
   .addr{margin-top:.75rem;font-family:system-ui,sans-serif;font-size:.95rem}
   a{color:inherit}
+  main{width:100%;max-width:720px}
+  .video{margin-top:3rem}
+  .frame{position:relative;width:100%;aspect-ratio:16/9;margin-top:1rem;border-radius:6px;overflow:hidden;background:#000}
+  .frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 </style>
 </head>
 <body>
@@ -23,6 +27,14 @@
     <p class="soon">Opening soon</p>
     <p class="addr">6/327 Honour Ave, Graceville</p>
     <p class="addr"><a href="https://instagram.com/enzopastapizza">@enzopastapizza</a></p>
+    <section class="video">
+      <p class="soon">Watch the build</p>
+      <div class="frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/K0XRa0fHWfo" title="Building Enzo's" loading="lazy"
+          allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p class="addr"><a href="https://www.youtube.com/@MaddisonJWalker">More on YouTube</a></p>
+    </section>
   </main>
 </body>
 </html>
